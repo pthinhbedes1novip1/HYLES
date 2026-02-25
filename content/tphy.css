@@ -12,8 +12,11 @@
 }
 .menu a{
    padding: 15px 20px;
-   flex: 5%
-    background-color: gray;
+   color: pink;
+}
+.menu hover{
+   background color: lightgray;
+   color: black;
 }
 .content iframe{
    flex: 1;
