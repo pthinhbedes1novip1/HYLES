@@ -8,8 +8,9 @@
 }
 .header{
    flex: 15%;
-   background:
+   background: url"content/5DF777D2-A121-44BE-B379-72CA28E59AB2.jpeg" center/100%;
    background-color: lightpink;
+   aspect-ratio: 6/1;
 }
 .menu{
    flex:5%;
