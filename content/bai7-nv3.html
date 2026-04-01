@@ -4,6 +4,11 @@
      <meta charset="utf-8">
      </head>
   <body> 
+       <script> 
+       let params = new URLSearchParams(window.location.search);
+       let ten = params.get("txtName");
+       let yk = params.get("txtYk");
+       document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten + "đã góp ý" + "<br><br>Chúng tôi xin ghi nhận ý kiến của bạn</script>
      <form action="bai7-nv2.html">
   <strong>Cảm ơn bạn đã góp ý kiến</strong>
     <p>Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới</p>
